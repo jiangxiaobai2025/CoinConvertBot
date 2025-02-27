@@ -10614,24 +10614,24 @@ for (int i = startIndex; i < endIndex; i++)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
 
@@ -14374,8 +14374,8 @@ if (messageText.Contains("费用") || messageText.Contains("能量") || messageT
     {
         new [] // first row
         {
-	    InlineKeyboardButton.WithCallbackData("能量消耗对比", "energyComparison"),
-            InlineKeyboardButton.WithCallbackData("立即租赁能量", "contactAdmin"),
+	    InlineKeyboardButton.WithCallbackData("💎能量消耗对比", "energyComparison"),
+            InlineKeyboardButton.WithCallbackData("💎立即租赁能量", "contactAdmin"),
         }
     });
 
@@ -14386,35 +14386,35 @@ if (messageText.Contains("费用") || messageText.Contains("能量") || messageT
         replyMarkup: inlineKeyboard
     );
     // 如果发送者是管理员且消息文本为“能量租赁”，则额外发送管理员菜单
-    if (message.From.Id == AdminUserId && messageText.Contains("能量租赁"))
+    if (message.From.Id == AdminUserId && messageText.Contains("💎能量租赁"))
     {
         string adminMenuText = "兑换TRX机器人 管理员菜单:";
         var adminInlineKeyboard = new InlineKeyboardMarkup(new[]
         {
             new [] // first row
             {
-                InlineKeyboardButton.WithCallbackData("网址收藏", "shoucang"), 	
-		InlineKeyboardButton.WithCallbackData("兑换记录", "show_transaction_recordds"),   		
+                InlineKeyboardButton.WithCallbackData("💎网址收藏", "shoucang"), 	
+		InlineKeyboardButton.WithCallbackData("💎兑换记录", "show_transaction_recordds"),   		
             },
             new [] // second row
             {
-                InlineKeyboardButton.WithCallbackData("操作指令", "mingling"),	
-                InlineKeyboardButton.WithCallbackData("用户地址", "show_user_info"),	    
+                InlineKeyboardButton.WithCallbackData("💎操作指令", "mingling"),	
+                InlineKeyboardButton.WithCallbackData("💎用户地址", "show_user_info"),	    
             },
             new [] // second row
             {
-		InlineKeyboardButton.WithCallbackData("群聊资料", "show_group_info"), 			    
-                InlineKeyboardButton.WithCallbackData("关注列表", "shiyong"),		    
+		InlineKeyboardButton.WithCallbackData("💎群聊资料", "show_group_info"), 			    
+                InlineKeyboardButton.WithCallbackData("💎关注列表", "shiyong"),		    
             },
             new [] // second row
             {
-		InlineKeyboardButton.WithCallbackData("用户积分", "/yonghujifen"),  
-                InlineKeyboardButton.WithCallbackData("客户余额", "ExecuteZjdhMethod"),		    	    
+		InlineKeyboardButton.WithCallbackData("💎用户积分", "/yonghujifen"),  
+                InlineKeyboardButton.WithCallbackData("💎客户余额", "ExecuteZjdhMethod"),		    	    
             },
             new [] // second row
             {
-                InlineKeyboardButton.WithCallbackData("会员列表", "/huiyuanku"),	
-		InlineKeyboardButton.WithCallbackData("承兑详情", "chengdui"),  	    	    
+                InlineKeyboardButton.WithCallbackData("💎会员列表", "/huiyuanku"),	
+		InlineKeyboardButton.WithCallbackData("💎承兑详情", "chengdui"),  	    	    
             }
 		
         });
@@ -14687,39 +14687,39 @@ if (moreCommandRegex.IsMatch(message.Text) || message.Text.Equals("更多功能"
         },
         new [] // 第一行按钮
         {
-            InlineKeyboardButton.WithCallbackData("会员代开", "membershipOptions"),
-            InlineKeyboardButton.WithCallbackData("会员表情", "memberEmojis"),
-            InlineKeyboardButton.WithCallbackData("联系作者", "contactAdmin")
+            InlineKeyboardButton.WithCallbackData("💎会员代开", "membershipOptions"),
+            InlineKeyboardButton.WithCallbackData("💎会员表情", "memberEmojis"),
+            InlineKeyboardButton.WithCallbackData("💎联系作者", "contactAdmin")
         },	    
         new [] // 第二行按钮
         {
-            InlineKeyboardButton.WithCallbackData("短信接码", "smsVerification"),
-            InlineKeyboardButton.WithCallbackData("靓号地址", "fancyNumbers"),
-            InlineKeyboardButton.WithCallbackData("简体中文", "send_chinese")
+            InlineKeyboardButton.WithCallbackData("💎短信接码", "smsVerification"),
+            InlineKeyboardButton.WithCallbackData("💎靓号地址", "fancyNumbers"),
+            InlineKeyboardButton.WithCallbackData("💎简体中文", "send_chinese")
         },
         new [] // 第三行按钮
         {
-            InlineKeyboardButton.WithCallbackData("汇率换算", "send_huansuan"),
-            InlineKeyboardButton.WithCallbackData("指令大全", "commandList"),
-            InlineKeyboardButton.WithCallbackData("使用帮助", "send_help")
+            InlineKeyboardButton.WithCallbackData("💎汇率换算", "send_huansuan"),
+            InlineKeyboardButton.WithCallbackData("💎指令大全", "commandList"),
+            InlineKeyboardButton.WithCallbackData("💎使用帮助", "send_help")
         },
         new [] // 新增第四行按钮
         {
-            InlineKeyboardButton.WithCallbackData("指数行情", "/hangqingshuju"),
-            InlineKeyboardButton.WithCallbackData("在线音频", "onlineAudio"),
-            InlineKeyboardButton.WithCallbackData("在线阅读", "onlineReading")
+            InlineKeyboardButton.WithCallbackData("💎指数行情", "/hangqingshuju"),
+            InlineKeyboardButton.WithCallbackData("💎在线音频", "onlineAudio"),
+            InlineKeyboardButton.WithCallbackData("💎在线阅读", "onlineReading")
         },
         new [] // 新增第四行按钮
         {
-            InlineKeyboardButton.WithCallbackData("老澳门彩", "laoaomen"),
-            InlineKeyboardButton.WithCallbackData("新澳门彩", "xinaomen"),
-            InlineKeyboardButton.WithCallbackData("香港六合", "xianggang")
+            InlineKeyboardButton.WithCallbackData("💎老澳门彩", "laoaomen"),
+            InlineKeyboardButton.WithCallbackData("💎新澳门彩", "xinaomen"),
+            InlineKeyboardButton.WithCallbackData("💎香港六合", "xianggang")
         },
         new [] // 新增第5行按钮
         {
-            InlineKeyboardButton.WithCallbackData("一键签到", "签到"),
-            InlineKeyboardButton.WithCallbackData("签到后台", "签到积分"),
-            InlineKeyboardButton.WithCallbackData("积分商城", "/jifensc")
+            InlineKeyboardButton.WithCallbackData("💎一键签到", "签到"),
+            InlineKeyboardButton.WithCallbackData("💎签到后台", "签到积分"),
+            InlineKeyboardButton.WithCallbackData("💎积分商城", "/jifensc")
         },	    
         new [] // 新增第6行按钮
         {	
@@ -17134,17 +17134,17 @@ if (messageText.StartsWith("/jkbtc") || messageText.Contains("行情监控"))
             {
                 List<InlineKeyboardButton[]> buttons = new List<InlineKeyboardButton[]>
                 {
-                    new[] { InlineKeyboardButton.WithCallbackData("订阅超卖信号", "/dingyuersi"),
-                            InlineKeyboardButton.WithCallbackData("查询突破信号", "/shiwukxian") }
+                    new[] { InlineKeyboardButton.WithCallbackData("💎订阅超卖信号", "/dingyuersi"),
+                            InlineKeyboardButton.WithCallbackData("💎查询突破信号", "/shiwukxian") }
                 };
 
                 // 如果用户ID是7795649425，添加第三个按钮
                 if (message.Chat.Id == 7795649425)
                 {
-                      buttons.Add(new[] { InlineKeyboardButton.WithCallbackData("查询超卖", "/charsi"),
-                                          InlineKeyboardButton.WithCallbackData("超卖榜单", "/rsizuidi"),
-                                          InlineKeyboardButton.WithCallbackData("超买榜单", "/chacm"),
-                                          InlineKeyboardButton.WithCallbackData("监控连涨", "/mairumaichu") });
+                      buttons.Add(new[] { InlineKeyboardButton.WithCallbackData("💎查询超卖", "/charsi"),
+                                          InlineKeyboardButton.WithCallbackData("💎超卖榜单", "/rsizuidi"),
+                                          InlineKeyboardButton.WithCallbackData("💎超买榜单", "/chacm"),
+                                          InlineKeyboardButton.WithCallbackData("💎监控连涨", "/mairumaichu") });
                 }
 
                 var inlineKeyboard = new InlineKeyboardMarkup(buttons);
@@ -17161,17 +17161,17 @@ if (messageText.StartsWith("/jkbtc") || messageText.Contains("行情监控"))
         {
             List<InlineKeyboardButton[]> buttons = new List<InlineKeyboardButton[]>
             {
-                new[] { InlineKeyboardButton.WithCallbackData("订阅超卖信号", "/dingyuersi"),
-                        InlineKeyboardButton.WithCallbackData("查询突破信号", "/shiwukxian") }
+                new[] { InlineKeyboardButton.WithCallbackData("💎订阅超卖信号", "/dingyuersi"),
+                        InlineKeyboardButton.WithCallbackData("💎查询突破信号", "/shiwukxian") }
             };
 
             // 如果用户ID是7795649425，添加第三个按钮
             if (message.Chat.Id == 7795649425)
             {
-                  buttons.Add(new[] { InlineKeyboardButton.WithCallbackData("查询超卖", "/charsi"),
-                                      InlineKeyboardButton.WithCallbackData("超卖榜单", "/rsizuidi"),
-                                      InlineKeyboardButton.WithCallbackData("超买榜单", "/chacm"),
-                                      InlineKeyboardButton.WithCallbackData("监控连涨", "/mairumaichu") });
+                  buttons.Add(new[] { InlineKeyboardButton.WithCallbackData("💎查询超卖", "/charsi"),
+                                      InlineKeyboardButton.WithCallbackData("💎超卖榜单", "/rsizuidi"),
+                                      InlineKeyboardButton.WithCallbackData("💎超买榜单", "/chacm"),
+                                      InlineKeyboardButton.WithCallbackData("💎监控连涨", "/mairumaichu") });
             }
 
             var inlineKeyboard = new InlineKeyboardMarkup(buttons);
@@ -19692,24 +19692,24 @@ async Task<Message> PriceTRX(ITelegramBotClient botClient, Message message)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
 
