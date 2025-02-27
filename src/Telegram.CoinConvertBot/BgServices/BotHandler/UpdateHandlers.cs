@@ -77,10 +77,10 @@ namespace Telegram.CoinConvertBot.BgServices.BotHandler;
 //代绑 id 地址  可以帮用户绑定地址 代解 id 用户名 （可选）地址 帮用户解绑地址  原理是模仿用户发送 绑定指令/解绑指令
 //添加群聊：群名字： 群ID： 群链接：
 //Console.WriteLine($"API URL: {apiUrl}, Response status code: {response.StatusCode}");//增加调试输出日志输出服务器日志 都可以用这个方法
-//                "e8e778d1-beee-43a0-aa7f-606c66e0ab87",
-//                "f49353bd-db65-4719-a56c-064b2eb231b2",
-//                 "587f64a1-43d5-40f2-9115-7d3c66b04591",
-//                "92854974-68da-4fd8-9e50-3948c1e6fa73"     ok链api     https://www.oklink.com/cn/account/my-api  注册
+//                  "871fc17d-1df9-4991-b4b7-1412730263dd",
+//                  "6646b76d-fd22-43eb-a920-ceac4c363514",
+//                  "0d3bebcf-2ef4-4877-b157-3cbc78eb8bad",
+//                  "80b41300-a744-405c-8254-c2c6e6c99c6e"     ok链api     https://www.oklink.com/cn/account/my-api  注册
 // 指数秘钥  private static readonly List<string> licences = new List<string> { "504ddb535666d9312d", "64345c8caebdd5133d", "94181401476c458453" };  string url = $"http://api.mairui.club/zs/sssj/{indexCode}/{licence}";
 
 
@@ -16883,9 +16883,9 @@ if (messageText.StartsWith("/jijianmoshi"))
         new [] // 第一行
         {
             new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎开通会员"),
+            new KeyboardButton("🏦查询余额"),
+            new KeyboardButton("🔋能量租赁"),
         }
     });
     simpleKeyboard.ResizeKeyboard = true;
@@ -16905,24 +16905,24 @@ if (messageText.StartsWith("/wanzhengmoshi"))
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("⚡️U兑TRX"),
+            new KeyboardButton("💎开通会员"),
+            new KeyboardButton("🏦查询余额"),
+            new KeyboardButton("🔋能量租赁"),
         },
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("⭐️购买星星"),
+            new KeyboardButton("🏦余额充值"),
+            new KeyboardButton("🤖免费克隆"),
+            new KeyboardButton("👁地址监听"),
         },
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("🕹财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("📈实时U价"),
+            new KeyboardButton("🥇更多功能"),
         }
     });
     fullKeyboard.ResizeKeyboard = true;
