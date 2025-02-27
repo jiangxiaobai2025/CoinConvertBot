@@ -19020,39 +19020,39 @@ if (UserId != AdminUserId)
         },
         new [] // 第一行按钮
         {
-            InlineKeyboardButton.WithCallbackData("会员代开", "membershipOptions"),
-            InlineKeyboardButton.WithCallbackData("会员表情", "memberEmojis"),
-            InlineKeyboardButton.WithCallbackData("联系作者", "contactAdmin")
+            InlineKeyboardButton.WithCallbackData("💎会员代开", "membershipOptions"),
+            InlineKeyboardButton.WithCallbackData("💎会员表情", "memberEmojis"),
+            InlineKeyboardButton.WithCallbackData("💎联系作者", "contactAdmin")
         },	    
         new [] // 第二行按钮
         {
-            InlineKeyboardButton.WithCallbackData("短信接码", "smsVerification"),
-            InlineKeyboardButton.WithCallbackData("靓号地址", "fancyNumbers"),
-            InlineKeyboardButton.WithCallbackData("简体中文", "send_chinese")
+            InlineKeyboardButton.WithCallbackData("💎短信接码", "smsVerification"),
+            InlineKeyboardButton.WithCallbackData("💎靓号地址", "fancyNumbers"),
+            InlineKeyboardButton.WithCallbackData("💎简体中文", "send_chinese")
         },
         new [] // 第三行按钮
         {
-            InlineKeyboardButton.WithCallbackData("汇率换算", "send_huansuan"),
-            InlineKeyboardButton.WithCallbackData("指令大全", "commandList"),
-            InlineKeyboardButton.WithCallbackData("使用帮助", "send_help")
+            InlineKeyboardButton.WithCallbackData("💎汇率换算", "send_huansuan"),
+            InlineKeyboardButton.WithCallbackData("💎指令大全", "commandList"),
+            InlineKeyboardButton.WithCallbackData("💎使用帮助", "send_help")
         },
         new [] // 新增第四行按钮
         {
-            InlineKeyboardButton.WithCallbackData("指数行情", "/hangqingshuju"),
-            InlineKeyboardButton.WithCallbackData("在线音频", "onlineAudio"),
-            InlineKeyboardButton.WithCallbackData("在线阅读", "onlineReading")
+            InlineKeyboardButton.WithCallbackData("💎指数行情", "/hangqingshuju"),
+            InlineKeyboardButton.WithCallbackData("💎在线音频", "onlineAudio"),
+            InlineKeyboardButton.WithCallbackData("💎在线阅读", "onlineReading")
         },
         new [] // 新增第四行按钮
         {
-            InlineKeyboardButton.WithCallbackData("老澳门彩", "laoaomen"),
-            InlineKeyboardButton.WithCallbackData("新澳门彩", "xinaomen"),
-            InlineKeyboardButton.WithCallbackData("香港六合", "xianggang")
+            InlineKeyboardButton.WithCallbackData("💎老澳门彩", "laoaomen"),
+            InlineKeyboardButton.WithCallbackData("💎新澳门彩", "xinaomen"),
+            InlineKeyboardButton.WithCallbackData("💎香港六合", "xianggang")
         },
         new [] // 新增第5行按钮
         {
-            InlineKeyboardButton.WithCallbackData("一键签到", "签到"),
-            InlineKeyboardButton.WithCallbackData("签到后台", "签到积分"),
-            InlineKeyboardButton.WithCallbackData("积分商城", "/jifensc")
+            InlineKeyboardButton.WithCallbackData("💎一键签到", "签到"),
+            InlineKeyboardButton.WithCallbackData("💎签到后台", "签到积分"),
+            InlineKeyboardButton.WithCallbackData("💎积分商城", "/jifensc")
         },	    
         new [] // 新增第6行按钮
         {	
@@ -19175,24 +19175,24 @@ USDT余额： <b>{USDT}</b>
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
             keyboard.ResizeKeyboard = true;           
@@ -19311,24 +19311,24 @@ bool skipTRXMonitoring = parts.Any(part => part.Equals("TRX", StringComparison.O
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
                 keyboard.ResizeKeyboard = true; // 调整键盘高度
@@ -19397,24 +19397,24 @@ catch (Telegram.Bot.Exceptions.ApiRequestException ex)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
                 keyboard.ResizeKeyboard = true; // 调整键盘高度
@@ -19464,24 +19464,24 @@ async Task<Message> UnBindAddress(ITelegramBotClient botClient, Message message)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
     keyboard.ResizeKeyboard = true; // 调整键盘高度
@@ -19588,24 +19588,24 @@ async Task<Message> UnBindAddress(ITelegramBotClient botClient, Message message)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
             keyboard.ResizeKeyboard = true; // 将键盘高度设置为最低
@@ -19818,24 +19818,24 @@ static async Task<Message> Start(ITelegramBotClient botClient, Message message)
         {
             new [] // 第一行
             {
-                new KeyboardButton("U兑TRX"),
-                new KeyboardButton("实时汇率"),
-                new KeyboardButton("查询余额"),
-                new KeyboardButton("能量租赁"),
+                new KeyboardButton("💎U兑TRX"),
+                new KeyboardButton("💎实时汇率"),
+                new KeyboardButton("💎查询余额"),
+                new KeyboardButton("💎能量租赁"),
             },   
             new [] // 第二行
             {
-                new KeyboardButton("外汇助手"),
-                new KeyboardButton("加密货币"),
-                new KeyboardButton("行情监控"),
-                new KeyboardButton("地址监听"),
+                new KeyboardButton("💎外汇助手"),
+                new KeyboardButton("💎加密货币"),
+                new KeyboardButton("💎行情监控"),
+                new KeyboardButton("💎地址监听"),
             },   
             new [] // 第三行
             {
-                new KeyboardButton("财富密码"),
-                new KeyboardButton("龙虎榜单"),
-                new KeyboardButton("市场异动"),
-                new KeyboardButton("更多功能"),
+                new KeyboardButton("💎财富密码"),
+                new KeyboardButton("💎龙虎榜单"),
+                new KeyboardButton("💎市场异动"),
+                new KeyboardButton("💎更多功能"),
             }
         });		
 
@@ -19931,24 +19931,24 @@ static async Task<Message> Start(ITelegramBotClient botClient, Message message)
         {
             new [] // 第一行
             {
-                new KeyboardButton("U兑TRX"),
-                new KeyboardButton("实时汇率"),
-                new KeyboardButton("查询余额"),
-                new KeyboardButton("能量租赁"),
+                new KeyboardButton("💎U兑TRX"),
+                new KeyboardButton("💎实时汇率"),
+                new KeyboardButton("💎查询余额"),
+                new KeyboardButton("💎能量租赁"),
             },   
             new [] // 第二行
             {
-                new KeyboardButton("外汇助手"),
-                new KeyboardButton("加密货币"),
-                new KeyboardButton("行情监控"),
-                new KeyboardButton("地址监听"),
+                new KeyboardButton("💎外汇助手"),
+                new KeyboardButton("💎加密货币"),
+                new KeyboardButton("💎行情监控"),
+                new KeyboardButton("💎地址监听"),
             },   
             new [] // 第三行
             {
-                new KeyboardButton("财富密码"),
-                new KeyboardButton("龙虎榜单"),
-                new KeyboardButton("市场异动"),
-                new KeyboardButton("更多功能"),
+                new KeyboardButton("💎财富密码"),
+                new KeyboardButton("💎龙虎榜单"),
+                new KeyboardButton("💎市场异动"),
+                new KeyboardButton("💎更多功能"),
             }
         });		
 
@@ -20011,24 +20011,24 @@ static async Task<Message> Start(ITelegramBotClient botClient, Message message)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
 
@@ -20052,24 +20052,24 @@ static async Task<Message> zulin(ITelegramBotClient botClient, Message message)
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
 
@@ -20168,24 +20168,24 @@ static async Task<Message> ExecuteZjdhMethodAsync(ITelegramBotClient botClient, 
     {
         new [] // 第一行
         {
-            new KeyboardButton("U兑TRX"),
-            new KeyboardButton("实时汇率"),
-            new KeyboardButton("查询余额"),
-            new KeyboardButton("能量租赁"),
+            new KeyboardButton("💎U兑TRX"),
+            new KeyboardButton("💎实时汇率"),
+            new KeyboardButton("💎查询余额"),
+            new KeyboardButton("💎能量租赁"),
         },   
         new [] // 第二行
         {
-            new KeyboardButton("外汇助手"),
-            new KeyboardButton("加密货币"),
-            new KeyboardButton("行情监控"),
-            new KeyboardButton("地址监听"),
+            new KeyboardButton("💎外汇助手"),
+            new KeyboardButton("💎加密货币"),
+            new KeyboardButton("💎行情监控"),
+            new KeyboardButton("💎地址监听"),
         },   
         new [] // 第三行
         {
-            new KeyboardButton("财富密码"),
-            new KeyboardButton("龙虎榜单"),
-            new KeyboardButton("市场异动"),
-            new KeyboardButton("更多功能"),
+            new KeyboardButton("💎财富密码"),
+            new KeyboardButton("💎龙虎榜单"),
+            new KeyboardButton("💎市场异动"),
+            new KeyboardButton("💎更多功能"),
         }
     });		
             keyboard.ResizeKeyboard = true; // 将键盘高度设置为最低
