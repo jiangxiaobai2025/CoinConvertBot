@@ -50,11 +50,10 @@ namespace Telegram.CoinConvertBot.BgServices.BotHandler;
 //        chatId: -1002311185021, // 群聊ID   用户点击按钮 自动在指定群聊 艾特作者 已取消！！！！！
 //        text: $"@jcb876 有人需要帮助，用户名： @{update.CallbackQuery.From.Username} 用户ID：{update.CallbackQuery.From.Id}"
 //    );
-//    static GroupManager()  广告发到指定群聊
-//    {
+//   
 //        // 添加初始群组 ID
 //        groupIds.Add(-1002496252624);  // 用你的初始群组 ID 替换 
-//        //groupIds.Add(-994581226);  // 添加第二个初始群组 ID
+//      
 //    }
 //    if (message.From.Id == 7795649425 && message.Chat.Type == ChatType.Group)  指定管理员可以发送：开启广告 关闭广告
 //拉黑+id  拉白+id
