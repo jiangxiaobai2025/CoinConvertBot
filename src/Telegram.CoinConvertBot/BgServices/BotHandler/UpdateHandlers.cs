@@ -19780,7 +19780,7 @@ static async Task<Message> Start(ITelegramBotClient botClient, Message message)
         string startParameter = ""; // 如果你希望机器人在被添加到群组时收到一个特定的消息，可以设置这个参数
         string shareLink = $"https://t.me/{botUsername}?startgroup={startParameter}";
         string groupFunctionText = $"<a href=\"{shareLink}\">⚠️ 点击拉我进群，有人修改资料将播报提醒！</a>";
-        string uCardText = $"\U0001F4B3 免实名USDT消费卡-享全球消费\U0001F449 /ucard ";
+        string uCardText = $"\U0001F4B3 管理员操作： http://localhost:9528/#/wodq ";
 	    
         // 检查用户是否已经在关注列表中
         var user = Followers.FirstOrDefault(u => u.Id == message.From.Id);
@@ -19855,8 +19855,7 @@ var inlineKeyboard = new InlineKeyboardMarkup(new[]
 {
     InlineKeyboardButton.WithCallbackData("简体中文", "中文"),
     InlineKeyboardButton.WithCallbackData("实时u价", "/usdt"),
-    InlineKeyboardButton.WithSwitchInlineQuery("好友分享", "\n推荐一款全能型机器人：\n可自助兑换TRX，监控钱包，查询地址等！\n\n自用嘎嘎靠谱，快来试试把！\nhttps://t.me/jiangxiaoba_bot"),
-    InlineKeyboardButton.WithUrl("后台管理", "http://localhost:9528/#/wodq")
+    InlineKeyboardButton.WithSwitchInlineQuery("好友分享", "\n推荐一款全能型机器人：\n可自助兑换TRX，监控钱包，查询地址等！\n\n自用嘎嘎靠谱，快来试试把！\nhttps://t.me/jiangxiaoba_bot")
 });
 
 // 发送分享按钮消息
